@@ -138,18 +138,50 @@
 }
 
 .block-container .about-wrapper .about-box img{
-    width: 100px;
+    width: 130px;
     height: 113px;
     object-fit: cover;
     margin-left: 10px;
+    padding-right: 10px;
+    border-right: 5px solid #49997d;
     
 }
 .box-content{
+    color: rgb(55, 55, 55);
     flex: 1 1 auto;
 }
 
 /* STYLING THE PAGE FOOTER */
 .footer{
     display: flex;
-    background-color: chartreuse;
+    padding: 0 10%;
+    background-color:#49997d;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.foot-cont{
+    color: white;
+    display: flex;
+}
+
+.foot-contate{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.foot-copyright{
+    text-align: center;
+    border-top: 1px solid rgb(206, 206, 206);
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    width: 100%;
+}
+
+.foot-icon{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
 }
