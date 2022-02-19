@@ -1,0 +1,29 @@
+/* ADICIONANDO ALGUNS RECURSOS A CLASSE .rooms-img, HERDADA DE stylesheet.css */
+.rooms-img img{
+    width: 25vw;
+    height: 30vh;
+    image-rendering: auto;
+    margin:20px 5px 40px 5px;
+}
+
+/* ESTILIZANDO AS TABELAS UTILIZADAS PARA DESCRICAO DOS QUARTOS */
+ul,h3{color:rgb(55, 55, 55);}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 75vw;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+ul li{
+    margin: 10px 35px;
+}
+/* FINAL DA ESTILIZACAO DAS TABELAS */
+
+/* FRACAO DE IMAGEM QUE APARECE NO TOPO DA PAGINA */
+.img-initial-top {
+    background-image: url(assets/img-fundo.jpg);
+    background-position: 50%;
+    height: 15%;
+}
