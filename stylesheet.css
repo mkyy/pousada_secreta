@@ -92,15 +92,14 @@
 .block-container p{font-size: 18px;color: rgb(55, 55, 55);}
 /* END OF BLOCK-CONTAINER TEXT-STYLE */
 
-.block-container #rooms-img{
+.block-container .rooms-img{
     display: flex;
     flex-direction: row;
 }
 
-#rooms-img .img-plus-link img{
+.rooms-img .img-plus-link img{
     width: 25vw;
     height: 30vh;
-    
     image-rendering: auto;
 }
 
